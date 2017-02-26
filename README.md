@@ -14,7 +14,7 @@ This script asks no questions!!!
 
 Please review the script source code and check that everything is as it should be!
 
-Make sure that your LVM partition resides on /dev/xvda5 and that your root volume group has the default <hostname>--vg-root name
+Make sure that your LVM partition resides on /dev/xvda5 and that your root volume group has the default hostname--vg-root name
 
 If you use xfs then you must comment the ext4 resize line and uncomment the xfs resize line (this has not been tested!)
 
@@ -25,6 +25,8 @@ _The user is responsible for the results of using this script!_
 ## Usage
 
 AFTER reading the Caution paragraph and making sure that all is OK just "chmod +x expand.sh" and execute it as root user.
+
+A reboot is *not* required but is recommended
 
 ## References
 
